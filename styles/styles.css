@@ -1,0 +1,73 @@
+/* common styles */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Space Mono', monospace;
+}
+
+/* header styles */
+
+.header{
+    padding: 40px 119px 0 77px;
+    margin-bottom: 308px;
+}
+.header-title{
+    color: #333;
+    font-family: 'Inconsolata', monospace;
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.banner{
+    display: flex;
+    margin: 200px 0 308px;
+}
+.banner-image{
+    margin-right: 120px;
+    width: 538px;
+    height: 447px;
+}
+.banner-image > img{
+    width: 100%;
+    height: 100%;
+}
+.banner-text-content{
+    width: 586px;
+}
+.banner-title{
+    color: #333;
+    font-size: 64px;
+    font-weight: 700;
+    letter-spacing: -2.24px;
+}
+.banner-description{
+    margin: 36px 0 64px;
+    color: #4F4F4F;
+    font-size: 24px;
+    letter-spacing: -0.84px;
+}
+.banner-link{
+    padding: 24px 43px;
+    background: #333;
+    color: #FFF;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: -0.49px;
+}
+
+/* footer styles */
+
+.footer{
+    margin-bottom: 24px;
+}
+.footer-title{
+    color: #BDBDBD;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+}
